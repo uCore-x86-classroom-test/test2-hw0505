@@ -7,4 +7,4 @@ make setupenv
 ## 本地测试
 make local_test
 
-test by hw
+test2 by hw
