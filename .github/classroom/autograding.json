@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "test1",
+      "setup": "git clone https://github.com/CL-a11y/uCore-x86-32-config --branch lab1 config",
+      "run": "cp -r config/classroom  .github/ && cp -r config/workflows .github/ && cp  config/Makefile ./ && cp  config/test.sh .",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
